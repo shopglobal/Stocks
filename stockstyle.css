@@ -1,0 +1,227 @@
+/*CSS selectors prefixed with . for class, hash for ID, nothing for element-->*/
+
+body{
+  background: #FFFFFF;
+  font-family: 'Droid Sans';
+}
+
+.openTrade{
+  position: relative;
+}
+.openTrade p{
+  font-size: 50%;
+  position: relative;
+}
+.arrow{
+    float: right;
+    width: 10px;
+    position: absolute;
+    bottom:   50%;
+    left:   70%;
+  }
+.logo{
+   float: left;
+   width: 30px;
+   position: absolute
+   top:   0px;
+   left:   0px;
+ }
+
+.openTrade:hover{
+  background: #DDD;
+}
+.content{
+  clear: both;
+  min-height: 100px;
+}
+.title h2 {
+  font-family: 'Muli', sans-serif;
+  color: #000000;
+  font-size: 100%;
+  margin: 0 auto;
+}
+
+#price{
+  position: absolute;
+  bottom:   5px;
+  right:   30px;
+}
+#charttitle {
+  float: left;
+  width: 30%;
+  text-align: center;
+  background-repeat: no-repeat;
+  clear: both;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+
+#titlescontainer{
+ width: 100%;
+}
+#opentradestitle{
+  float: right;
+  width: 30%;
+  margin-left: auto;
+  clear: none;
+  text-align: center;
+}
+
+#portfoliotitle{
+  float: right;
+  width: 30%;
+  margin-left: auto;
+  clear: none;
+  text-align: center;
+}
+
+#chartcontainer{
+ width: 100%;
+ clear: both;
+}
+
+#chart{
+  float: left;
+  max-width: 43%;
+  text-align: center;
+  max-height: 200px;
+  clear: none;
+}
+
+#portfolio{
+  float: right;
+  max-width: 30%;
+  margin-left: auto;
+  min-height: 300px;
+}
+
+#trades{
+  float: right;
+  width: 25%;
+  margin-left: auto;
+  min-height: 300px;
+  clear: none;
+}
+
+#companyinfo {
+   background-color: #E0E0E0;
+   min-height: 130px;
+}
+
+#titleheader {
+  text-align: center;
+  width: 100%;
+  float: none;
+  margin:auto;
+  font-family: 'Droid Sans';
+}
+
+.sitecontent{
+  margin-left:3%;
+  margin-right:3%;
+  background-position: 0% 0%; /*horiz vert*/
+  background-size: auto 100%;
+}
+
+
+#companygrid {
+width:530px;
+  margin: 0 auto;
+
+}
+
+.singlecompanygrid{
+/*color: #FFFFFF;*/
+  /*width: 200px;*/
+  min-height: 120px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  background-origin: padding-box;
+  max-width: 120px;
+  /*opacity: 0.4;*/
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0;
+  position: relative;
+  border-style: solid;
+  border-width: thick;
+  border-color: #E0E0E0;
+}
+.singlecompanygrid img{
+   float: right;
+   width: 30px;
+ }
+.singlecompanygrid p{
+   clear: left;
+   font-size: 50%;
+}
+ .singlecompanygrid h3{
+    float: left;
+    font-size: 75%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.buybutton{
+   background-color: #555555;
+   width:60px;
+   border: none;
+   color: white;
+   padding: 15px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   vertical-align: bottom;
+   position: absolute;
+   bottom:   5px;
+
+}
+.buybutton:disabled {
+    background: #dddddd;
+}
+.sellbutton{
+   background-color: #555555;
+   width:60px;
+   border: none;
+   color: white;
+   padding: 15px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   vertical-align: bottom;
+   position: absolute;
+   bottom:   5px;
+   right:   5px;
+
+}
+.sellbutton:disabled {
+    background: #dddddd;
+}
+
+.footer{
+  background-color: #FFFFFF;
+  clear:both;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+}
+p{
+  font-size: 50%;
+  font-family: 'Muli', sans-serif;
+  color: #000066;
+}
+h1{
+  font-size: 10;
+  font-family: 'Muli', sans-serif;
+  color: #000066;
+}
+
+h2{
+  font-size: 8;
+  font-family: 'Droid Sans', sans-serif;
+}
+ul li{
+  font-size: 50%;
+}
