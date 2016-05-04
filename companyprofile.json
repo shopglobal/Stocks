@@ -1,0 +1,19 @@
+{ "company" : [
+  {
+    "Name": "Pear",
+    "Sector": "Tech",
+    "Description": "Producer of innovative tech products with a dedicated fan base that borders on cult-like"
+  },
+
+  {
+    "Name": "Goofle",
+    "Sector": "Tech",
+    "Description": "This company just about does it all."
+  },
+  {
+    "Name": "Twitta",
+    "Sector": "Social Media, Tech",
+    "Description": "Big social media player, allowing you to air your opinions no matter how wrong!"
+  }
+  ]
+}
