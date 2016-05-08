@@ -1,7 +1,13 @@
 $.getJSON("companyprofile.json", function(companies) {
     // data is a JavaScript object now. Handle it as such
+//var companiesobj = $.parseJSON(companies);
+console.dir(companies);
+console.log("companiesobj: " + companiesobj);
+console.log("companiesobj[1]: " + companiesobj[1]);
+console.log("companiesobj[1][1]: " + companiesobj[1][1]);
 
 var tradeId = 1 //identifier for individual trades, incremented on 'buy' click
+
 
 //initialise 'class' for Company objects, OpenTrades and ClosedTrades
 
