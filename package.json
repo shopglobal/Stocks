@@ -1,0 +1,24 @@
+{
+  "name": "stocks",
+  "version": "1.0.0",
+  "description": "App simulating stock trading",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsm2201/Stocks.git"
+  },
+  "keywords": [
+    "stocks",
+    "trading"
+  ],
+  "author": "Robin Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsm2201/Stocks/issues"
+  },
+  "homepage": "https://github.com/rsm2201/Stocks#readme"
+}
