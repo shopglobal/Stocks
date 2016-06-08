@@ -1,0 +1,25 @@
+<navbar></navbar>
+
+<header class="hero-unit" id="banner">
+  <div class="container">
+    <h1>MEAN Stock</h1>
+    <p class="lead">The stock app built with a MEAN stack</p>
+    <img src="assets/StockGraphic.png" height=60px alt="the meanstack shop">
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Featured Stocks:</h1>
+      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="stock in stocks">
+        <li><a ui-sref="viewStock({id: stock._id})" tooltip="{{stock.description}}">
+          {{stock.title}} -
+          <span class="text-muted">{{stock.price | currency}}</span>
+        </a></li-->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--footer></footer-->

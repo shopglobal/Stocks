@@ -1,0 +1,26 @@
+#banner {
+  border-bottom: none;
+  margin-top: -20px;
+}
+
+#banner h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.hero-unit {
+  position: relative;
+  padding: 30px 15px;
+  //background-image: url('/client/assets/texturebg.jpg');
+  //color: #222222; //F5F5F5;
+  background-color:rgba(0, 0, 0, 0.03);
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  //background: #000000; //4393B9;
+
+}
+
+.navbar-text {
+  margin-left: 15px;
+}

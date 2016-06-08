@@ -1,0 +1,30 @@
+<navbar></navbar>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="thumbnail productbox">
+        <div class="">
+          <a ui-sref="viewStock({id: stock._id})">
+            <img src="{{stock.imageUrl}}" alt="{{stock.title}}" class="img-responsive">
+            <div class="producttitle">{{stock.title}}</div>
+          </a>
+
+          <p>{{stock.description}}</p>
+        </div>
+
+        <div class="productprice">
+          <div class="pull-right">
+            <ngcart-addtocart id="{{stock._id}}" name="{{stock.title}}" price="{{stock.price}}" template-url="components/ngcart/addtocart.html" data="stock">BUY</ngcart-addtocart>
+            <a ng-show="user.role === 'admin'" ui-sref="editStock({id: stock._id})" class="btn btn-default btn-sm" role="button">EDIT</a>
+            <a ng-show="user.role === 'admin'" class="btn btn-default btn-sm" ng-click="deleteStock()">DELETE</a>
+          </div>
+          <div class="pricetext">{{stock.price | currency }}</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer></footer>
